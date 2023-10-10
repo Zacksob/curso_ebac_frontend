@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: pink;
+    padding: 16px 0;
+    color: rgb(121, 136, 121);
+    display: flex;
+    border-bottom: 16px solid rgb(224, 125, 142);
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+body {
+    background-color: rgb(253, 253, 174);
+}
+
+form {
+    padding: 24px 0;
+    text-align: center;
+}
+
+input,
+button {
+    padding: 10px;
+    border-color: gold;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(31, 29, 29);
+}
+
+.concluida {
+    text-decoration: line-through;
+}
