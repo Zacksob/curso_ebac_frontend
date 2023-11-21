@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header {
+    padding: 16px 0 0;
+    border-bottom: 1px solid rgb(0, 183, 255);
+    font-size: 20px;
+    margin-bottom: 56px;
+    background-color: black;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    margin: 0 20px;
+}
+
+.text {
+    margin: 20px;
+}
+
+.sobre {
+    display: flex;
+    margin-top: 24px;
+}
+
+h2 {
+    margin-top: 24px;
+}
+
+.stock img {
+    display: flex;
+    margin-top: 24px;
+    width: 250px;
+}
+
+.produto {
+    display: flex;
+}
+
+.playstation {
+    margin: 10px;
+}
+
+article img {
+    height: auto;
+}
+
+button {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: rgb(0, 183, 255);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.price {
+    margin: 16px 0;
+}
+
+.descriçao {
+    margin: 20px 0;
+}
+
+hr {
+    border-color: rgb(0, 183, 255);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* (layout Telefone) */
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .sobre {
+        flex-wrap: wrap;
+    }
+
+    .produto {
+        display: block;
+    }
+
+    button {
+        width: 60%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .sobre-loja,
+    .stock {
+        padding: 20px;
+    }
+
+    .playstation {
+        width: 100%;
+    }
+
+
+}
+
+
+/* (Layout Tablet) */
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .menu {
+        display: flex;
+    }
+
+    .sobre {
+        flex-wrap: wrap;
+    }
+
+    .sobre-loja,
+    .stock {
+        padding: 30px;
+    }
+
+    .playstation {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
